@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: indianred;
+  height: 100%;
+  width: 85%;
+  margin: 240px 0px 0px 120px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.friend-card {
+  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+  margin: 3rem;
+  background-color: rgb(7, 132, 144);
+}
+.links {
+  text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+}
+
+.links a {
+  
+  color: black;
+}
+
+.App-link {
+  color: #09d3ac;
+}
